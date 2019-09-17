@@ -2,6 +2,8 @@ target
 logging.properties
 *.iml
 .idea/
-/rest/src/main/webapp/apidocs
+.settings/
+.classpath/
+.project/
 
-model/pom.xml.rej
+
