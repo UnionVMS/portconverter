@@ -3,7 +3,8 @@ logging.properties
 *.iml
 .idea/
 .settings/
-.classpath/
-.project/
+.classpath
+.project
+
 
 
