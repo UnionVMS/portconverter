@@ -17,7 +17,7 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 
-public class Main3 {
+public class Main3_HamnarFran_Mats {
 
 	private final int TO_PORT_AREA = 0;
 	private final int TO_PORT = 1;
@@ -26,7 +26,7 @@ public class Main3 {
 
 	private void go(String[] args) {
 
-		TARGET_LAYER = TO_PORT;
+		TARGET_LAYER = TO_PORT_AREA;
 
 		Connection connOutput = null;
 		PreparedStatement stmt_output = null;
@@ -242,7 +242,7 @@ public class Main3 {
 
 	public static void main(String[] args) {
 
-		Main3 obj = new Main3();
+		Main3_HamnarFran_Mats obj = new Main3_HamnarFran_Mats();
 		String uid = "postgres";
 		String pwd = "postgres";
 		String url = "jdbc:postgresql://localhost:25432/db71u";
